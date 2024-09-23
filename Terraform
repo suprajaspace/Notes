@@ -1,0 +1,8 @@
+What is Terraform:
+•	Terraform is "Infrastructure as a code"(Iaac) developed by Hashicorp.
+•	Terraform is a declarative way of creating infrastructure.
+•	Terraform is HCL (HashiCorp configuration Language)
+•	Terraform is a scripting language, can automate infrastructure.
+•	Terraform can connect to providers such as AWS, Azure, Github, GCP, Alibaba etc. Terraform providers’ reference: https://registry.terraform.io/browse/providers
+•	Providers are a logical abstraction of an upstream API. They are responsible for understanding API interactions and exposing resources.
+•	AWS resources are EC2, Security Group, Route53 etc.
