@@ -1,4 +1,4 @@
-What is Terraform:
+Key Points About Terraform:
 •	Terraform is "Infrastructure as a code"(Iaac) developed by Hashicorp.
 •	Terraform is a declarative way of creating infrastructure.
 •	Terraform is HCL (HashiCorp configuration Language)
@@ -6,3 +6,17 @@ What is Terraform:
 •	Terraform can connect to providers such as AWS, Azure, Github, GCP, Alibaba etc. Terraform providers’ reference: https://registry.terraform.io/browse/providers
 •	Providers are a logical abstraction of an upstream API. They are responsible for understanding API interactions and exposing resources.
 •	AWS resources are EC2, Security Group, Route53 etc.
+
+
+Key Points About Providers:
+
+Provider Definition: Providers must be defined in your Terraform configuration file (.tf) to specify which service you're interacting with (e.g., AWS, Azure, Google Cloud, etc.).
+
+API Authentication: Most providers require credentials (such as API keys or tokens) to authenticate Terraform and allow it to manage resources on the platform.
+
+Provider-Specific Resources: Each provider comes with its own set of supported resources (e.g., EC2 instances, S3 buckets for AWS).
+
+Versioning: Providers can have different versions, and you can specify which version to use to ensure consistency and avoid breaking changes.
+
+EC2 (Elastic Compute Cloud) instance in AWS is a virtual server that allows you to run applications in the cloud.
+
